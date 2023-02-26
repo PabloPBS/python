@@ -1,0 +1,14 @@
+TIPOS PRIMITIVOS
+
+int (inteiros)   7 / -4 / 0 / 9875
+float(reais)     4.5 / 0.076 / -15.223 / 7.0  
+bool(literal)    True / False (Primeira leta maiúscula)
+str(caractere)   'Olá' / '7,5' / ''
+
+.FORMAT
+
+print('A soma vale',s)
+
+print('A soma vale{}'.format(s))
+
+print(f'A soma vale {s})

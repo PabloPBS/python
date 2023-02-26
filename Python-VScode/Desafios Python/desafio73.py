@@ -1,0 +1,11 @@
+Times = ('Palmeiras','Santos','Flamengo','Atlético-MG','Botafogo','Athletico-PR','Corinthias','Ponte Preta','Grêmio','São Paulo','Chapecoense','Cruzeiro','Fluminense','Sport Recife','Coritiba','EC Vitória','Internacional','Figueirense','Santa Cruz','América-MG')
+cha = 'Chapecoense'
+print(f'Lista dos times brasileiros: {Times}')
+print('-=-'*20)
+print(f'Cinco primeiros colocados: {Times[0:5]}')
+print('-=-'*20)
+print(f'Quatro últimos colocados: {Times[-4:]}')
+print('-=-'*20)
+print(f'Times em ordem alfabética: {sorted(Times)}')
+print('-=-'*20)
+print(f'Posição do Chapecoense: {Times.index(cha)+1}ª')

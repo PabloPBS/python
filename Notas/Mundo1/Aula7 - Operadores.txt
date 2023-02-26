@@ -1,0 +1,31 @@
+Operadores Aritmétricos
++ Adição
+
+- Subtração
+* Multiplicação
+/ Divisão
+
+** Potência
+// Divisão inteira
+% Resto da divisão
+
+Exemplo
+
+5+2==7
+5-2==3
+5*2==10
+5/2==2.5
+
+5**2==25
+5//2==2
+5%2==1
+
+Um igual(=) atribuição
+Dois iguais(==) resultado
+
+Ordem de Procedência
+
+1 ()
+2 **
+3 *  /  //  %
+4 +  -

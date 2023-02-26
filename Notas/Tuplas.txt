@@ -1,0 +1,17 @@
+Elementos de tuplas são identificados por índices [0,1,2,3,4...]
+print(lanche[2])
+print(lanche[0:2]) do 0 até 2 (último excluído)
+print(lanche[1:]) do 1 até o fim
+print(lanche[-1]) último elemento
+
+for c in lanche:
+	print(c)
+
+AS TUPLAS SÃO IMUTÁVEIS
+
+Declarando tuplas:
+lanche = ('Hambúrguer, 'Suco', 'Pizza', 'Pudim')
+
+Encontrar str em tuplas:
+Times.index(cha) - só funcionou com uma variável dentro do index
+pode usar aspas duplas "Chapecoense"

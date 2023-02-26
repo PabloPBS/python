@@ -1,0 +1,3 @@
+Estrutura de repetição com teste lógico
+while 3>4:
+while not maçã:

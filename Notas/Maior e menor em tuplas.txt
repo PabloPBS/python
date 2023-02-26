@@ -1,0 +1,6 @@
+max(n)
+min(n)
+
+n = (randint(1,10 ,randint(1,10 ,randint(1,10)
+n.count(9) = quantas vezes
+n.index(9) = onde apareceu

@@ -1,0 +1,39 @@
+'Curso em Vídio Python'- strings / cadeias de caracteres
+frase = Curso em Vídeo Python
+- Fatiamento (O último não conta)
+frase[9] - V
+frase[9:13] - Víde
+frase[9:21] - Vídeo Python
+frase[9:21:2] - VdoPto
+frase[:5] - Curso
+frase[15:] - Python
+frase[9::3] - Veph
+
+- Análise
+len(frase)(length/comprimento) - 21
+frase.count('o') (quantidade do caractere) - 3
+frase.count('o',0,13) (do 0 até o 13*) - 1
+frase.find('deo') (onde encontrou) - (11)
+frase.find('Android') - -1 (não encontrado)
+'Curso' in frase - True
+
+- Transformação
+frase.replace('Python','Android') (substituição) 
+frase.upper() (coloca maiúsculo)
+frase.lower() (coloca em minúsculo)
+frase.capitalize() (só a primeira letra maiúscula)
+frase.title() (primeira letra de cada palavra em maiúsculo)
+frase.strip() (remove espaços inúteis[não o entre palavras])
+frase.rstrip() (remove os espaços inúteis da direita)
+frase.lstrip() (remove os espaços inúteis da esquerda)
+
+- Divisão
+frase.split() (divide a string em cada espaço e cria uma lista das palavras separadas)
+
+- Junção
+'-'.join(frase) (junta os elementos da lista e usa '-' como separador)
+
+- Iverter string
+[::-1]
+
+

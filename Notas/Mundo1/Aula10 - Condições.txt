@@ -1,0 +1,27 @@
+		      carro.siga()
+
+   if(carro.esquerda()	 	  else
+	(comandos)		(comandos)
+
+		      carro.pare()
+
+------------------------------------------------------
+
+if carro.esquerda():
+
+	Bloco True
+
+else:
+
+	Bloco False
+
+------------------------------------------------------
+tempo = int(input('Quantos anos tem seu carro?'))
+if tempo <=3:
+	print('Carro novo')
+else:
+	print('Carro velho')
+------------------------------------------------------
+tempo = int(input('Quantos anos tem seu carro?'))
+print('carro novo' if tempo <=3 else 'carro velho')
+print('--FIM--')

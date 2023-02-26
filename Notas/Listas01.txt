@@ -1,0 +1,31 @@
+Tuplas - Imutáveis
+Listas - Mutáveis
+Tuplas ()
+Listas []
+
+ADICIONAR
+
+lanche.append('cookie') - .append adiciona no final da lista
+lanche.insert(0,'hotdog') - (0 = posição) .insert adiciona no início da lista
+
+REMOVER
+
+del lanche[3] 
+lanche.pop(3) - lanche.pop() - Último removido
+lanche.remove('pizza')
+
+if 'pizza' in lanche:
+	lanche.remove('pizza')
+
+valores = list(range(4,11)) - valores = [4...10] - índices = 0...6
+valores = [8,2,5,4,9,3,0]
+valores.sort() - Coloca em ordem
+valores.sort(reverse=True)
+{sorted(lista, reverse=True)}
+cola em ordem reversa (decrescente)
+len(valores) - Quantos elementos ele tem = 7
+
+IGUALAR 2 LISTAS CRIA UMA LIGAÇÃO
+para copiar um lista - lista.copy() ou b = a[:]
+
+for c,v in enumerate(valores):

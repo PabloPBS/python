@@ -1,0 +1,4 @@
+Repetição com variável de comtrole
+for c in range(0,10):
+for c in range(10,0, -1): (passo)
+10 9 8 ..

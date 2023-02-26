@@ -1,0 +1,25 @@
+ANSI escape sequence
+\033[(codigo da cor)m
+\033[style;text;backm
+\033[0;33;44m   0 - sem estilo
+
+	style
+0 - none(nenhum)
+1 - bold(negrito)
+4 - underline (sublinhado)
+7 - negative (inverter configurações)
+
+	text
+30 - branco
+31 - vermelho
+32 - verde
+33 - amarelo
+34 - azul
+35 - roxo
+36 - ciano
+37 - cinza(padrão)
+
+	back
+40 - 47
+mesmas cores de cima
+

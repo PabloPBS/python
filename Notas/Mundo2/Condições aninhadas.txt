@@ -1,0 +1,14 @@
+Estrutura de condição dentro de outra
+
+else if = elif
+Podemos usar vários elif
+else = 1 ou 0
+
+if carro.asquerda():
+  ...
+elif carro.direita():
+  ...
+elif carro.ré()
+  ...
+else:
+  ...

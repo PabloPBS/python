@@ -1,0 +1,24 @@
+IMPORTAR TODOS
+
+impot bebida <- todas as bebidas 
+import doce <- todos os doces
+
+IMPORTA UM ESPECÍFICO
+
+from doce import "pudim" <- só  o pudin
+
+BIBLIOTECA math 
+importar funções matemáticas extras
+
+import math
+ceil <- arredonda pra cima
+floor <- arredonda pra baixo
+trunc <- "truncar"
+pow <- potência
+sqrt <- raiz quadrada
+factorial
+
+IMPORTAR 2/MAIS
+
+from math import sqrt,ceil
+
