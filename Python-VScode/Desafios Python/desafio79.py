@@ -1,14 +1,17 @@
 lista = []
-c = 0
+
 while True:
-    lista.append(int(input(f'Digite o valor da posição {c}: ')))
-    for c in lista:
-        if lista.count(c) >= 2:
-            print('Valor duplicado. Tente novamente.')
-            lista.remove(c)
-        else:
-            print('Valor registrado com sucesso.')
-    resp = str(input('Deseja continuar? (S/N) ')).strip().upper()
-    if resp == 'N':
+    val = int(input('Digite um valor: '))
+
+    if val in lista:
+        print('Valor já adicionado. Não irei adicionar.')
+    else:
+        print('Valor adicionado com sucesso.')
+        lista.append(val)
+    
+    res = str(input(('Deseja continuar? [S/N] '))).strip().upper()
+    if res == 'N':
         break
-print(lista.sort())
+
+lista.sort()
+print(f'Você digitou os valores {lista}')
