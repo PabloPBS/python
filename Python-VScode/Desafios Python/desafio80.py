@@ -1,6 +1,21 @@
 lista = []
 aux = 0
-for c in range(0,5):
-    if lista[c] < lista[c+1]:
-        lista.insert(int(input(f'Digite o {c+1}º valor: ')))
-print(lista)
+
+for c in range(0, 5):
+    n = int(input('Digite um valor: '))
+
+    if c == 0 or n > lista[-1]:
+        lista.append(n)
+        print('Valor adicionado no final da lista.')
+    else:
+        pos = 0
+        while pos < len(lista):
+            if n <= lista[pos]:
+                lista.insert(pos, n)
+                print(f'Valor adiocionado na posição {pos}')
+                break
+
+            pos += 1
+
+print ('-=' * 30)
+print (f'Os valores digitados em ordem foram {lista}')
