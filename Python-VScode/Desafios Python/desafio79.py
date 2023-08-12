@@ -13,5 +13,7 @@ while True:
     if res == 'N':
         break
 
+print('-=-' * 20)
+
 lista.sort()
 print(f'Você digitou os valores {lista}')
